@@ -1,7 +1,5 @@
 /* Variables */
 
-
-
 /* Global styles reset */
 
 p,
@@ -46,7 +44,7 @@ img {
   background-color: #84a178;
 
   &__title {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -54,5 +52,17 @@ img {
     text-transform: uppercase;
 
     color: #fcfcfc;
+
+    &--big {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 41px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+
+      color: #fcfcfc;
+    }
   }
 }
