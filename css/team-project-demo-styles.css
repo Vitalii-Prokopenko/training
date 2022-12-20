@@ -42,27 +42,27 @@ img {
 
 .footer {
   background-color: #84a178;
+}
 
-  &__title {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(22 / 18);
-    text-transform: uppercase;
+.footer__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-transform: uppercase;
 
-    color: #fcfcfc;
+  color: #fcfcfc;
+}
 
-    &--big {
-      font-family: "Montserrat", sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 34px;
-      line-height: 41px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+.footer__title--big {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 
-      color: #fcfcfc;
-    }
-  }
+  color: #fcfcfc;
 }

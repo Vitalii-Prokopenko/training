@@ -1,4 +1,4 @@
-.loader {
+/* .loader {
   width: 480px;
   height: 480px;
   margin: auto;
@@ -62,4 +62,133 @@
   50% {
     transform: scale(1.2, 1);
   }
+} */
+
+/* Variables */
+
+/* Global styles reset */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-height: 100%;
+}
+
+.link {
+  display: block;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  background-color: #84a178;
+}
+
+.footer__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-transform: uppercase;
+
+  color: #fcfcfc;
+}
+
+.footer__title--big {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: calc(41 / 34);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #fcfcfc;
+}
+
+.footer__contact-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  text-align: right;
+
+  color: #131313;
+}
+
+.footer__contact {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  text-align: right;
+
+  color: #fcfcfc;
+}
+
+.footer__rights-wrap {
+  padding: 20px;
+
+  border-top: 1px solid #e1e1e1;
+}
+
+.footer__rights {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(21 / 14);
+  text-align: center;
+
+  color: #7a7a7a;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  background-color: #f8d24e;
+  fill: #84a178;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  fill: #fcfcfc;
 }
